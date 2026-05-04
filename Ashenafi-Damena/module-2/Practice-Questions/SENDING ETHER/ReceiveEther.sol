@@ -10,4 +10,9 @@ contract Contract {
         // Store the address of the account deploying the contract
         owner = msg.sender;
     }
+
+    // Special function to receive Ether when calldata is empty
+    receive() external payable {
+        // Ether is automatically added to the contract's balance
+    }
 }
