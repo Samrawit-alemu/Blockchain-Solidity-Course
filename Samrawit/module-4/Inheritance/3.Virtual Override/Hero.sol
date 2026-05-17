@@ -1,0 +1,1 @@
+module-4/Inheritance/1.Inherit/Hero.sol
