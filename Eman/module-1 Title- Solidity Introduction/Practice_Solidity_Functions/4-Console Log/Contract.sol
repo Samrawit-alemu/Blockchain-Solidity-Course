@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "forge-std/console.sol";
+
+contract Contract {
+    function winningNumber(string calldata message) external returns(uint256) {
+        console.log(message);
+        return 794;
+    }
+}
